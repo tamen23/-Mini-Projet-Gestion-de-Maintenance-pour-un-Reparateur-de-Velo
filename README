@@ -1,0 +1,31 @@
+Mini Projet: Gestion de Maintenance pour un Réparateur de Vélo
+Objectif: Créer une application web PHP permettant à un réparateur de vélo de gérer les tâches de maintenance et de suivi des réparations.
+Fonctionnalités requises :
+1. Page d'accueil:
+Afficher la liste des tâches de maintenance à effectuer.
+o Chaque tâche doit être associée à un vélo et afficher son numéro d'identification.
+2. Ajout de Tâches:
+o Permettre au réparateur d'ajouter de nouvelles tâches de maintenance.
+Chaque tâche doit avoir une description détaillée de la réparation à effectuer.
+3. Statut des Tâches:
+o Chaque tâche doit avoir un statut (à faire, en cours, terminé).
+o Permettre au réparateur de mettre à jour le statut des tâches.
+4. Détails du Vélo :
+Afficher les détails du vélo associé à chaque tâche.
+Permettre la création, l'édition et la suppression des informations sur les vélos.
+5. Historique des Réparations:
+• Enregistrer un historique des réparations effectuées, y compris la date et la description de chaque réparation.
+Contraintes techniques:
+Utilisez PHP pour le côté serveur.
+Stockez les données dans une base de données relationnelle (par exemple, MySQL). Utilisez HTML, CSS, et JavaScript (éventuellement avec AJAX) pour la partie frontend.
+Assurez-vous de la sécurité avec la validation des entrées utilisateur.
+Fichiers sources à disposition:
+Grille tarifaire comprenant une liste de prestations de réparation << ref_repair_prestation.xlsx >>>
+Grille d'évaluation de prestations « ref_repair_eval_operations >>>
+Fiches vélos: «bike_user_line_detail.csv », «bike_user_line.csv» et « ref_bike_data.csv >>> Ces documents peuvent être utilisés si besoin mais ne sont pas obligatoires
+Critères d'évaluation :
+Architecture simple de l'application.
+Gestion des bases de données et des relations entre les entités.
+Implémentation de fonctionnalités basiques de gestion de tâches pour la maintenance des vélos.
+Interface utilisateur simple et fonctionnelle, adaptée au contexte de réparation de vélos.
+Sécurité et prévention des vulnérabilités.
